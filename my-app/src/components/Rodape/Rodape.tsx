@@ -1,7 +1,7 @@
-export default function Rodape(){
-  return(
+export default function Rodape() {
+  return (
     <footer>
-      <p>&copy; 2026 My App. Todos os direitos reservados.</p>
+      <p>© 2026 - Todos os direitos reservados</p>
     </footer>
   );
 }
