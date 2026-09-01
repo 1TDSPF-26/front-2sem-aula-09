@@ -1,10 +1,12 @@
+import { Link } from "react-router";
+
 export default function Menu() {
   return (
     <nav>
       <ul>
-        <li>Item-1</li>
-        <li>Item-2</li>
-        <li>Item-3</li>
+        <li><Link to="/">Home</Link></li>
+        <li> <Link to ="/produtos">Produtos</Link></li>
+        <li><Link to="/conteudo">Conteudo</Link></li>
       </ul>
     </nav>
   );
