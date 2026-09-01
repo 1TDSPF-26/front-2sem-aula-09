@@ -1,15 +1,11 @@
-export default function Cabecalho(){
+import Menu from "../Menu/Menu.tsx";
 
-    return(
-        <header className= "bg-slate-800 text-white ">
+export default function Cabecalho() {
+
+    return (
+        <header className="bg-blue-500   text-white font-sans flex-row p-4">
             <h1>Meu componente</h1>
-            <nav>
-                <ul>
-                    <li>item 1</li>
-                    <li>item 2</li>
-                    <li>item 3</li>
-                </ul>
-            </nav>
+            <Menu />
         </header>
     );
 }
