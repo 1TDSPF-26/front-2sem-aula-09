@@ -11,7 +11,7 @@ import Home from './routes/Home/index.tsx';
 import Produtos from './routes/Produtos/index.tsx';
 import EditarProdutos from './routes/EditarProdutos/index.tsx';
 import Error from './routes/Error/index.tsx';
-import Conteudo from './components/Conteudo/Conteudo.tsx';
+import Conteudo from './routes/Conteudo/index.tsx';
 
 //Criando uma lista de objetos de rotas:
 const router = createBrowserRouter([

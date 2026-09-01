@@ -1,4 +1,4 @@
-import Card from "../Card/Card";
+import Card from "../../components/Card/Card";
 
 export default function Conteudo(){
   return(
@@ -7,7 +7,6 @@ export default function Conteudo(){
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem vitae nemo et eum deleniti, dolorum iure unde laborum enim minima veniam cum rerum, facilis quisquam ab quis, ipsam veritatis. Maxime?</p>
         <Card title="Meu primeiro Card" nomeProduto="Tv" />
         <Card title="Meu segundo Card" nomeProduto="Microfone" />
-
     </main>
   );
 }
