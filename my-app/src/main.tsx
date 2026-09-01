@@ -11,7 +11,6 @@ import Home from './routes/Home/index.tsx';
 import Produtos from './routes/Produtos/index.tsx';
 import EditarProdutos from './routes/EditarProdutos/index.tsx';
 import Error from './routes/Error/index.tsx';
-import conteudo from './routes/Conteudo/index.tsx';
 import Conteudo from './routes/Conteudo/index.tsx';
 
 
