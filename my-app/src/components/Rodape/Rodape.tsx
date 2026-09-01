@@ -1,9 +1,7 @@
 export default function Rodape(){
-
     return(
-            <footer>
-             <p>Direitos autorais</p>
-            </footer>
+        <footer>
+            <p>© 2026 - Todos os direitos reservados</p>
+        </footer>
     );
 }
-
