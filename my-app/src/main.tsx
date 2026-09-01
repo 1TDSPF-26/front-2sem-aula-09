@@ -9,7 +9,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router';
 //Importar os componentes de rotas:
 import Home from './routes/Home/index.tsx';
 import Produtos from './routes/Produtos/index.tsx';
-import EditarProdutos from './routes/EditarProdutos/index.tsx';
+import EditarProdutos from './routes/EditarProduto/index.tsx';
 import Error from './routes/Error/index.tsx';
 import Conteudo from './routes/Conteudo/index.tsx';
 
