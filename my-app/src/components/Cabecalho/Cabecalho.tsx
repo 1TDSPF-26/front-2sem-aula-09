@@ -1,4 +1,4 @@
-import Menu from "../Menu/menu.tsx";
+import Menu from "../Menu/Menu.tsx";
 
 export default function Cabecalho() {
 
