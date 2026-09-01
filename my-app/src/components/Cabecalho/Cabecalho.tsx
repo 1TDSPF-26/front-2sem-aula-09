@@ -1,25 +1,11 @@
-import { Link } from "react-router";
+import Menu from "../Menu/Menu";
 
-export default function Cabecalho(){
+export default function Cabecalho() {
 
-    return(
-            <header>
-                <nav>
-                    <h1>Compras Online</h1>
-                    <ul>
-                        <li>
-                            <Link to="/">Home</Link>
-                        </li>
-                        <li>
-                            <Link to="/Produtos">Produtos</Link>
-                        </li>
-                        <li>
-                            <Link to="/EditarProdutos">Editar Produtos</Link>
-                        </li>
-                    </ul>
-                </nav>
-            </header>
-        
+    return (
+        <header className="bg-blue-500   text-white font-sans flex-row p-4">
+            <h1>Meu componente</h1>
+            <Menu />
+        </header>
     );
-
 }
