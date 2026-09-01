@@ -1,4 +1,4 @@
-import Card from "../../components/Card/Card";
+import Card from "../../components/CardProduto/CardProduto";
 
 export default function Conteudo() {
   return (
